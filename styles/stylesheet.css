@@ -1,3 +1,8 @@
+/* set global style for all element sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #DFE2E5;
   font-size: 1em;
@@ -8,7 +13,9 @@ header {
   background-image: url("../images/data-era-1013x440.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 
