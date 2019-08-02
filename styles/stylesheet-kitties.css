@@ -11,7 +11,7 @@ header {
   background-image: url("../images/lesson04-mock2-banner-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -22,22 +22,54 @@ h1 {
   padding-top: 2rem;
   padding-left: 10rem;
 }
+
 h2 {
   color: white;
   padding-left: 10rem;
   padding-bottom: 2rem;
 }
 
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  color: #64AFD5;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #64AFD5;
+}
+
+nav {
+  padding-top: 15rem;
+  padding-left: 10rem;
+}
+
+.nav-buttons {
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}
+
+p {
+  line-height: 175%;
+}
+
 footer {
   background-image: url("../images/lesson04-mock4-footer-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   color: white;
   font-size: .7em;
+  height: 300px;
 }
 
 .footer-nav {
