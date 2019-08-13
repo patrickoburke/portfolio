@@ -3,20 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Wireframes</title>
+    <!--Font awesome kit code -->
+    <script src="https://kit.fontawesome.com/c0c226e604.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   </head>
+  <style>
+    body {
+      font-family: "Source Sans Pro", sans-serif;
+    }
+    figure {
+      margin-left: 0px;
+      margin-right: 20px;
+    }
+    figcaption {
+      font-weight: bolder;
+    }
+    nav {
+      margin-top: 75px;
+    }
+  </style>
   <body>
     <header>
       <h1>Wireframes</h1>
     </header>
     <br>
     <nav>
-      <a class="nav-buttons" href="index.html">Home</a>
+      <a class="nav-buttons" href="index.html"><i class="fas fa-home"></i>&nbsp;Home</a>
     </nav>
     <article>
       <h2>Wireframes that I have created at work</h2>
       <p>Much of my work is in creating wireframes to help with describing a feature or improvement. I use Balsamiq to do this. By no means am I an expert, but the process of learning how to create the wireframes is what led me to thinking about front end development.
       </p>
+      <div class="wireframe-container">
         <figure>
           <figcaption>Dashboard Proposal</figcaption>
           <img class="large-img" src="images/site-dashboard-pane-collapsed.png" alt="image of wireframe for new product dashboard" style="width:512px;height:auto">
@@ -25,10 +44,11 @@
           <figcaption>Another Dashboard Proposal</figcaption>
           <img class="large-img" src="images/site-equip-track-dashboard.png" alt="a second image of wireframe for new product dashboard" style="width:512px;height:auto">
         </figure>
+      </div>
     </article>
     <footer>
-      <br>
-      <small class="footer-text">&copy; 2019 Patrick Burke Redmond WA <a class="footer-link" href="mailto:patrick6394@gmail.com?subject=Feedback">Email Me</a></small>
+      <p class="footer-text">&copy; 2019 Patrick Burke Redmond WA &nbsp;</p>
+      <a href="mailto:patrick6394@gmail.com?subject=Feedback"><i class="fas fa-envelope-square" title="Email Me"></i></a><a href="https://www.linkedin.com/in/patrick6394/" target="_blank"><i class="fab fa-linkedin" title="Connect on linkedin"></i></a>
     </footer>
   </body>
 </html>
