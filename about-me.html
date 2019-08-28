@@ -15,7 +15,48 @@
         margin: 0px;
       }
       nav {
-        margin-top: 75px;
+        margin-top: 100px;
+        padding-left: 10rem;
+      }
+
+      .left-pane {
+        width: 55%;
+        float: left;
+        padding-left: 10rem;
+      }
+
+      .right-pane {
+        width: 30%;
+        float: left;
+        padding-left: 4rem;
+        padding-right: 6rem;
+      }
+
+      ul {
+        list-style-type: none;
+        line-height: 1.75;
+      }
+      li {
+        font-size: 1.5rem;
+      }
+
+      li:nth-child(odd) {
+        color: blue;
+      }
+      h2 {
+        margin-bottom: 3px;
+      }
+      li:hover {
+        border-style: none;
+        border-radius: 3px;
+        color: cyan;
+        background-color: #666666;
+      }
+      li {
+        transition: background-color 2s ease-in 0.5s;
+      }
+      hr {
+        color: #666666;
       }
     </style>
   </head>
@@ -23,35 +64,49 @@
     <header>
       <h1>About Me</h1>
     </header>
-    <br>
     <nav>
       <a class="nav-buttons" href="index.html"><i class="fas fa-home"></i>&nbsp;Home</a>
     </nav>
-    <article>
-      <h2>How did I get here?</h2>
-      <p>My family moved to Hawaii from Washington when I was one month old, and we lived there until I was 5. As a Navy brat, it was lucky for me that my father had gotten stationed at Pearl Harbor.<br>
-        I don't remember a whole lot, but vivid are the memories of clear water, warm rain, and magnificent sunsets!
-      </p>
-      <figure>
-        <img class="large-img" src="images/hawaii-sunset.jpg" alt="picture of sun setting over ocean in Hawaii with palm trees in the foreground" style="width:512px;height:384px">
-        <figcaption>Hawaiian Sunset</figcaption>
-      </figure>
-      <p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/27815352@N00/3799256">"sunset"</a>
-        <span>by <a href="https://www.flickr.com/photos/27815352@N00">cbuschel</a></span>
-          is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a>
-    </article>
-    <aside>
-      <h3>Fun Facts</h3>
-      <ul>
-        <li>Birthdate: June 5</li>
-        <li>Astrological Sign: Gemini</li>
-        <li>Favorite Color: Orange</li>
-        <li>Dream Job: X-Wing Pilot</li>
-      </ul>
-    </aside>
+      <div class="left-pane">
+        <article>
+          <h2>How did I get here?</h2>
+          <p>My family moved to Hawaii from Washington when I was one month old, and we lived there until I was 5. As a Navy brat, it was lucky for me that my father had gotten stationed at Pearl Harbor.<br>
+            I don't remember a whole lot, but vivid are the memories of clear water, warm rain, and magnificent sunsets!
+          </p>
+        <figure>
+          <img class="large-img bw" src="images/hawaii-sunset.jpg" alt="picture of sun setting over ocean in Hawaii with palm trees in the foreground" style="width:512px;height:384px">
+          <figcaption>Hawaiian Sunset</figcaption>
+        </figure>
+        <p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/27815352@N00/3799256">"sunset"</a>
+          <span>by <a href="https://www.flickr.com/photos/27815352@N00">cbuschel</a></span>
+            is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a>
+        </article>
+      </div>
+      <div class="right-pane">
+        <aside>
+          <h2>Fun Facts</h2>
+          <ul>
+            <li>Birthdate: June 5</li>
+            <li>Astrological Sign: Gemini</li>
+            <li>Favorite Color: Orange</li>
+            <li>Dream Job: X-Wing Pilot</li>
+          </ul>
+        </aside>
+        <hr>
+        <aside>
+          <h2>Passions</h2>
+          <ul>
+            <li>Golf</li>
+            <li>Boating</li>
+            <li>Sci-Fi Movies</li>
+            <li>Star Wars Models</li>
+          </ul>
+        </aside>
+      </div>
     <footer>
       <p class="footer-text">&copy; 2019 Patrick Burke Redmond WA &nbsp;</p>
-      <a href="mailto:patrick6394@gmail.com?subject=Feedback"><i class="fas fa-envelope-square" title="Email Me"></i></a><a href="https://www.linkedin.com/in/patrick6394/" target="_blank"><i class="fab fa-linkedin" title="Connect on linkedin"></i></a>
+      <a href="mailto:patrick6394@gmail.com?subject=Feedback"><i class="fas fa-envelope-square icon" title="Email Me"></i></a>
+      <a href="https://www.linkedin.com/in/patrick6394/" target="_blank"><i class="fab fa-linkedin icon" title="Connect on linkedin"></i></a>
     </footer>
   </body>
 </html>
