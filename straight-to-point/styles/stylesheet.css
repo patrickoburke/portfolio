@@ -77,6 +77,7 @@ h3 {
 
 .header-call {
   float: right;
+  text-align: right;
   margin-right: 20%;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
